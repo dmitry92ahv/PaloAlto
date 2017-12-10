@@ -1,9 +1,14 @@
+/*Normolize*/
+@import "./vendors/normalize";
 
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i');
 
 /* Layout */
 @import "./partials/layout/style";
 
 /* Partials */
+@import "./partials/includes/navigation/style";
 @import "./partials/includes/header/style";
 @import "./partials/includes/footer/style";
 
